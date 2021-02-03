@@ -3,6 +3,7 @@
 - React 16
 - Webpack 5
 - Babel 7
+- Mirador 3
 
 ## Installation
 
