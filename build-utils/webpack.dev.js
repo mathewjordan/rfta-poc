@@ -4,6 +4,10 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'development',
+  externals: {
+    "react": "React",
+    "react-dom": "ReactDOM"
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new Dotenv({
