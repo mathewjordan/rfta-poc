@@ -7,5 +7,5 @@
 ## Installation
 
 - `yarn`
-- `npm start`
+- `yarn start`
 - visit `http://localhost:8080/`
